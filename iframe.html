@@ -1,0 +1,45 @@
+<!--
+<h1>A Map from Openstreetmap.org Embedded with the iframe Element</h1>
+
+<iframe
+  width="425"
+  height="350"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=3.006134033203125%2C6.150112578753815%2C3.6357879638671875%2C6.749850810550778&amp;layer=mapnik"
+  title="Map of Lagos area, Nigeria"
+  style="border: 1px solid black"
+>
+</iframe>
+<br />
+<small>
+  <a href="https://www.openstreetmap.org/#map=11/6.4501/3.3210">
+    View Larger Map
+  </a>
+</small>
+
+If you want to embed direct HTML within the iframe element,
+ you have to use the srcdoc attribute instead of src
+ strict-origin-when-cross-origin. This shares the full address on the same site, only the site
+name on other sites, and nothing on insecure sites.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Videos in an iframe</title>
+  </head>
+  <body>
+    <h1>iframe Video Display</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/I0_951_MPE0"
+      allow="accelerometer autoplay clipboard-write encrypted-media gyroscope web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen      
+    >
+
+    </iframe>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id=title>¡Descubre si eres un gay mexicano!<h1>
+      <p id=description>¿No estás seguro de si las chicas son lo tuyo? Entra y descúbrelo</p>
+      <form id="survey-form">
+          <input required id="name" type="text" placeholder="name">
+          <label id="name-label">
+          <input required id="email" type="email" placeholder="email">
+          <label id="email-label">
+          <input min=18 max=100 id="number" type="number" placeholder="age">
+          <label id="number-label">
+          <select id="dropdown">
+            <option>bicurioso</option>
+            <option>heteroflexible</option>
+            <option>closetero</option>
+          </select>
+          <h2>Música</h2>
+          <p>Llego la hora de bailar, escoge tu favorita</p>
+          <ul>
+          <li><input type="radio" id="paulina" name="diva" value="paulina" />
+          <label for="paulina">Paulina Rubio</label></li>
+          <input type="radio" id="thalia" name="diva" value="thalia" />
+          <label for="thalia">Thalía</label>
+          <input type="radio" id="gloria" name="diva" value="gloria" />
+          <label for="gloria">Gloria Trevi</label>
+          </ul>
+          <textarea>Nombra a cualquier otra diva del pop</textarea>
+          <button type="submit" id="submit">Agregala aquí</button>
+          <hr>
+          <small>Has utilizado Grindr</small><br>
+          <label id="grindr">Sí</label>
+          <input type="checkbox" id="grindr" value="opcion-1">
+          <label id="grindr">No</label>
+          <input type="checkbox" id="grindr" value="opcion-2"><br>
+          <small>Conoces La Más Draga</small><br>
+          <label id="grindr">Sí</label>
+          <input type="checkbox" name="dragas" value="opcion-1">
+          <label id="grindr">No</label>
+          <input type="checkbox" name="dragas" value="opcion-2"><br>
+          <small>Has ido al pride de tu ciudad?</small><br>
+          <label id="grindr">Sí</label>
+          <input type="checkbox" name="pride" value="opcion-1">
+          <label id="grindr">No</label>
+          <input type="checkbox" name="pride" value="opcion-2">
+      </form>
+    </body>
+</html>
